@@ -1,3 +1,3 @@
-Forecasting LA Lakers' game stats with Markov Chain Analysis.
+We will use Bayes' Theorem of probability to make probabilistic forecasts of real-world datasets. In the first case, we will build a Python program to forecast a small dataset, with one and subsequently two features. Later, we will apply that Python code to a different and much larger dataset.
 
-We will apply this methodology to forecast the LA Lakers' probable wins and losses for the current season, which has 29 more games to play!
+The second part involves analyzing a credit card approval dataset to compute the probabilities of approval, given income and credit scores. It has 3 columns, CreditScore, Income, and ApprovalStatus, and all values are binary. This dataset is a derivative of the UCI Credit Approval Data, obtained from Kaggle (https://www.kaggle.com/code/anthonypm/predicting-credit-card-ap provals/data). The Income and CreditScore columns have been binarized based on some threshold values (in a quasi-arbitrary manner), where 1 indicates a value above the respective thresholds. Likewise a value of 1 for ApprovalStatus indicates that the credit card was approved.
